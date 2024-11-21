@@ -8,9 +8,9 @@
 - 👤Muhammad Khairu Fadilah (2309116025)
 
 ## 📌DAFTAR ISI
-+ [Activity Diagram](https://github.com/PA-PBO-2023/Beasiswa_Hunt/blob/main/README.md#activity-diagram)
-+ [Diagram User](https://github.com/PA-PBO-2023/Beasiswa_Hunt/blob/main/README.md#usecase-diagram)
-+ [Flowchart](https://github.com/PA-PBO-2023/Beasiswa_Hunt/blob/main/README.md#flowchart)
++ [USECASE](https://github.com/PA-PBO-2023/Beasiswa_Hunt/blob/main/README.md#usecase-diagram)
++ [ACTIVITY DIAGRAM](https://github.com/PA-PBO-2023/Beasiswa_Hunt/blob/main/README.md#activity-diagram)
++ [FLOWCHART](https://github.com/PA-PBO-2023/Beasiswa_Hunt/blob/main/README.md#flowchart)
 + [ERD](https://github.com/PA-PBO-2023/Beasiswa_Hunt/blob/main/README.md#erd)
 + [TAMPILAN APLIKASI](https://github.com/PA-PBO-2023/Beasiswa_Hunt/blob/main/README.md#tampilan-aplikasi-beasiswa)
 
@@ -126,29 +126,29 @@ Entitas Utama:
 
 
 
-##### LOGIN
+##### Login
 <img width="316" alt="image" src="https://github.com/user-attachments/assets/1f06c8b9-98a8-4b57-9bf7-8e4ec7ffcd45">
 
 Admin melakukan login ke aplikasi dengan memasukkan username dan password yang telah ditentukan, serta memilih role sebagai Admin. Jika login berhasil, admin akan diarahkan ke menu admin untuk mengelola aplikasi. Namun, jika login gagal karena kesalahan username atau password, aplikasi akan menampilkan notifikasi bahwa login gagal, dan admin diminta untuk mencoba kembali.
 
 
 
-##### CREATE
+##### Create
 <img width="706" alt="Tangkapan Layar 2024-11-21 pukul 17 58 53" src="https://github.com/user-attachments/assets/57eae10f-ebf8-4681-b603-f25bb5c988ec">
 
-##### UPDATE
+##### Update
 <img width="709" alt="Tangkapan Layar 2024-11-21 pukul 18 02 37" src="https://github.com/user-attachments/assets/1a52773b-32ee-478e-beb5-befcf95e8251">
 
-##### DELETE
+##### Delete
 <img width="700" alt="Tangkapan Layar 2024-11-21 pukul 18 06 21" src="https://github.com/user-attachments/assets/36916c86-9974-495d-9b6a-11ece4a5af25">
 
-##### DASHBOARD ADMIN
+##### Dashboard Admin
 ![WhatsApp Image 2024-11-21 at 21 12 50_2204e8d6](https://github.com/user-attachments/assets/fe3796d6-8d7f-4240-84a5-7dbf8d2c14f6)
 
-##### DATA USER
+##### Data User
 ![WhatsApp Image 2024-11-21 at 21 13 17_452adb67](https://github.com/user-attachments/assets/b3bf0034-13b1-4cf9-8e9f-f2045b68d5a8)
 
-##### LOG OUT
+##### Log Out
 ![button keluar admin](https://github.com/user-attachments/assets/88e33c29-7a44-4240-9836-b0cb69071b21)
 
 Halaman Dashboard Admin dirancang untuk memudahkan pengelolaan data beasiswa. Admin dapat menambahkan dan mengelola informasi beasiswa seperti ID Beasiswa, Nama Beasiswa, Jenis, Kategori, Deadline, dan Status (Buka/Tutup). Semua data beasiswa ditampilkan dalam bentuk tabel yang rapi, lengkap dengan fitur untuk Tambah, Simpan Edit, Hapus data dan Lihat Data User kemudian LogOut.
@@ -158,7 +158,7 @@ Halaman Dashboard Admin dirancang untuk memudahkan pengelolaan data beasiswa. Ad
 
 #### *Login Sebagai User*
 
-##### LOGIN
+##### Login
 <img width="800" alt="Tangkapan Layar 2024-11-21 pukul 18 09 46" src="https://github.com/user-attachments/assets/f1de9508-1358-4bcb-925a-10c260b971fe">
 
 Pengguna harus memasukkan username/email dan password yang valid. Sistem akan memverifikasi untuk memberikan akses ke fitur yang sesuai dan masuk kehalaman user.
@@ -167,36 +167,36 @@ Pengguna harus memasukkan username/email dan password yang valid. Sistem akan me
 
 
 
-##### BIODATA USER
+##### Biodata User
 <img width="711" alt="Tangkapan Layar 2024-11-21 pukul 18 25 18" src="https://github.com/user-attachments/assets/b05f3cc2-c7c9-422b-87e5-9012fb50a05c">
 
 Halaman profil di aplikasi Scholar Hunt memungkinkan pengguna mengisi atau memperbarui data pribadi, seperti Nama, NIM/NISN, Alamat, Status, No. HP, Email, dan Tanggal Lahir (TTL).
 
 
-##### ABOUT US
+##### Tentang Kami
 <img width="1190" alt="Tangkapan Layar 2024-11-21 pukul 18 29 25" src="https://github.com/user-attachments/assets/ffea5081-6ab6-41df-ba31-ec25eb9eb01b">
 
 
-##### INFO BEASISWA
+##### Info Beasiswa
 ![WhatsApp Image 2024-11-21 at 21 35 37_55959c58](https://github.com/user-attachments/assets/289bf349-b9ff-4002-9a07-3e9d2267b2b4)
 
 Halaman ini menyediakan informasi terkait berbagai program beasiswa yang tersedia, serta dapat melakukan searching dan sorting pada data beasiswa.
 
-##### SORTING
+##### Sorting
 ![WhatsApp Image 2024-11-21 at 21 41 28_6bd2544b](https://github.com/user-attachments/assets/ebaa9a93-7fc5-4631-8ed7-a32e6888f7a3)
 
 Pada halaman ini, pengguna bisa mensorting beasiswa menggunakan fitur sorting, dimana sorting bisa dengan nama dan ID.
 
 
 
-##### SEARCHING!
+##### Searching
 ![WhatsApp Image 2024-11-21 at 21 43 20_f1a1acbc](https://github.com/user-attachments/assets/07ed1da6-235f-484c-844e-2eba7ad5cfd4)
 
 Pada halaman ini, pengguna bisa mencari beasiswa menggunakan fitur searching, dimana searching bisa dengan nama dll.
 
 
 
-##### LOG OUT
+##### Log Out
 ![button log out user](https://github.com/user-attachments/assets/92134b59-f949-47f7-bfda-490358f51545)
 
 Fitur Logout pada halaman ini dirancang untuk memastikan pengguna benar-benar ingin keluar dari aplikasi.
